@@ -1,0 +1,19 @@
+﻿@model AboutModel
+@{
+    ViewData["Title"] = "Sobre Mim";
+}
+<style>
+    img    {
+    border-radius: 50%;
+}
+</style>
+<div class="text-center">
+<h1>@ViewData["Title"]</h1>
+<img src="https://avatars.githubusercontent.com/u/79121102?s=400&u=7292fb5b986e8e29bcc4af6f8fd3fbef856851cd&v=4" width="200px"/>
+
+<p>Meu nome é César e tenho 23 anos.</p>
+<p>Github: @Model.email </p>
+<p>Email: <a href="@Model.github" target="_blank">CesarMinhoz99</a> </p>
+
+
+</div>
